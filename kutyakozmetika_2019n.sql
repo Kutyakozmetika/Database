@@ -82,25 +82,8 @@ CREATE TABLE `megrendeles` (
 --
 
 INSERT INTO `megrendeles` (`megrendelesID`, `foglalasNapja`, `foglalasOraja`, `felhasznalonev`, `szolgaltatasNev`) VALUES
-(1, 'HÃ©tfÅ‘', '10:00', '', ''),
-(2, 'Kedd', '10:00', '', ''),
-(3, 'Szerda', '13:00', '', ''),
-(4, 'Szerda', '13:00', '', ''),
-(5, 'HÃ©tfÅ‘', '10:00', '', ''),
-(6, 'HÃ©tfÅ‘', '10:00', '', ''),
-(7, 'CsÃ¼tÃ¶rtÃ¶k', '10:00', 'felhasznalo', ''),
-(8, 'HÃ©tfÅ‘', '10:00', 'alma', ''),
-(9, 'HÃ©tfÅ‘', '10:00', 'jÃ³ska', ''),
-(11, 'HÃ©tfÅ‘', '10:00', 'lajos', ''),
-(12, 'Szombat', '15:00', 'sas', ''),
-(13, 'HÃ©tfÅ‘', '10:00', 'sas', ''),
-(14, 'VasÃ¡rnap', '14:00', 'sas', ''),
-(15, 'HÃ©tfÅ‘', '10:00', 'sas', ''),
-(16, 'Szerda', '13:00', 'andriska', ''),
-(17, 'Szombat', '15:00', 'barna', ''),
-(18, 'VasÃ¡rnap', '16:00', '', ''),
-(20, 'VasÃ¡rnap', '15:00', 'Kriszs', ''),
-(21, 'Csütörtök', '13:00', 'sasmadar', 'Fürdetés');
+(1, 'HÃ©tfÅ‘', '10:00', '', '');
+
 
 -- --------------------------------------------------------
 
@@ -119,9 +102,9 @@ CREATE TABLE `szolgaltatas` (
 --
 
 INSERT INTO `szolgaltatas` (`szolgaltatasID`, `szolgaltatasNev`, `idotartam`) VALUES
-(1, 'Szőrzetkezelés', 60),
-(2, 'Fürdetés', 40),
-(3, 'Körömvágás', 30);
+(1, 'Szorzetkezeles', 60),
+(2, 'Furdetes', 40),
+(3, 'Koromvagas', 30);
 
 --
 -- Indexek a kiírt táblákhoz
